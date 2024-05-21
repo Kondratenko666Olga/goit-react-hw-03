@@ -38,7 +38,7 @@ const App = () => {
   };
 
   return (
-      <div>
+      <div className='mainContainer'>
           <h1>Phonebook</h1>
           <ContactForm onAdd={addContact} />
           <SearchBox value={filter} onChange={handleSearchChange} />
